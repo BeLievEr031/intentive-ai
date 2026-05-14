@@ -15,10 +15,8 @@ export default function VideoSection() {
   return (
     <section className="bg-[#f5f5f5] -mt-32 md:-mt-40 lg:-mt-48 pb-20 flex justify-center">
       <div className="relative max-w-7xl w-full px-6 md:px-10">
-
         {/* Video Card */}
         <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-gray-200">
-
           {/* Video */}
           <video
             ref={videoRef}
@@ -27,7 +25,7 @@ export default function VideoSection() {
             controls={isPlaying}
           >
             <source
-              src="/videos/Inventive+AI+with+Vo+V7.mp4"
+              src="https://dieykyh8gzm7u.cloudfront.net/videos/Inventive+AI+with+Vo+V7.mp4"
               type="video/mp4"
             />
           </video>
@@ -43,9 +41,7 @@ export default function VideoSection() {
               </div>
             </button>
           )}
-
         </div>
-
       </div>
     </section>
   );
